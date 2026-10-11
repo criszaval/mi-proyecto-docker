@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  output: "standalone", // <-- ¡Añade esta línea para Docker!
   experimental: {
     agentFeedback: true,
   },
